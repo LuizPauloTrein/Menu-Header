@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 2rem;
+    margin-left: 7px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li a{
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+    margin: 15px;
+}
+
+.menu li a:hover{
+    background-color: #5bc241;
+    color: white;
+}
+
+.menu li a.button{
+    background-color: #5bc241;
+    border-radius: 10px;
+    color: white;
+    margin-left: 15px;
+    padding: 10px 20px;
+}
